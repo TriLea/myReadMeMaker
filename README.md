@@ -1,27 +1,10 @@
-# t
-## About:
-undefined
-## Description:
-t
-## Table of Contents
-- [About](#About)
-- [desription](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [contributing](#contributing)
-- [Tests](#tests)
-## Installation:
-t
-## Usage:
-t
-## Contributing:
-t
-## Tests:
-t
-## License:
-![githublicense](https://img.shields.io/badge/License-MIT-yellow.svg)
-[MIT](https://choosealicense.com/licenses/mit/)
-This project is licensed under the MIT license.
-### Questions:
-If you have any questions, please contact me at t 
-or visit my GitHub page at t, t
+# myReadMeMaker!
+generate a readme file for your project
+through cli prompts from inquirer
+
+deployed link:
+https://trilea.github.io/myReadMeMaker/
+repo link:
+https://github.com/TriLea/myReadMeMaker
+video link:
+https://drive.google.com/file/d/1RarOev_qWtdbnmxqNtc4enXrWoNlMDNJ/view

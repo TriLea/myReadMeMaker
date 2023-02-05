@@ -70,6 +70,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data)
 {
+    fileName = "./utils/" + fileName; //adds the file name to the path
     return fs.writeFileSync(fileName, data); //writes the file; pretty simple
 }
 
