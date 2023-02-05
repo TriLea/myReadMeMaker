@@ -3,17 +3,17 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) { 
     if (license === 'MIT') {
-        return '(https://img.shields.io/badge/License-MIT-yellow.svg)'
+        return `![githublicense](https://img.shields.io/badge/License-MIT-yellow.svg)`
     } else if (license === 'Apache 2.0') {
-        return '(https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
+        return `![githublicense](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`
     } else if (license === 'GPLv2') {
-        return '(https://img.shields.io/badge/License-GPL%20v2-blue.svg)'
+        return `![githublicense](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
     } else if (license === 'The UnLicense') {
-        return '(https://img.shields.io/badge/license-Unlicense-blue.svg)'
+        return `![githublicense](https://img.shields.io/badge/license-Unlicense-blue.svg)`
     } else {
-        return ''
+        return ``
     }
-}   //maybe a switch statement would be better here
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -66,6 +66,8 @@ ${data.usage}
 ## Future:
 ${data.future}
 ## License:
+${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
 ${renderLicenseSection(data.license)}`
 };
 
